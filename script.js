@@ -2,15 +2,15 @@ const cardElements = document.querySelectorAll('.card');
 const player = document.getElementById('player');
 
 // Cek apakah sudah buka hari ini
-const lastVisit = localStorage.getItem('lastVisit');
-const today = new Date().toLocaleDateString();
+//const lastVisit = localStorage.getItem('lastVisit');
+//const today = new Date().toLocaleDateString();
 
-if (lastVisit === today) {
-  alert("Kamu hanya bisa membuka sekali sehari. Kembali besok ya!");
-  document.body.innerHTML = "<h2>Silakan kembali besok!</h2>";
-} else {
-  localStorage.setItem('lastVisit', today);
-}
+//if (lastVisit === today) {
+  //alert("Kamu hanya bisa membuka sekali sehari. Kembali besok ya!");
+  //document.body.innerHTML = "<h2>Silakan kembali besok!</h2>";
+//} else {
+  //localStorage.setItem('lastVisit', today);
+//}
 
 // Fungsi audio
 const audios = {
